@@ -16,7 +16,7 @@ public class SolutionsTest {
     }
 
     @Test
-    void SolutionTest() {
+    void solutionTest() {
         open("https://github.com/");
         $(".header-menu-wrapper").find(byText("Solutions")).hover();
         $$("[aria-labelledby='solutions-for-heading'] li").first().$("a").click();

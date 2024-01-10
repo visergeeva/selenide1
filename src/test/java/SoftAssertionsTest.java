@@ -18,7 +18,7 @@ public class SoftAssertionsTest {
     }
 
     @Test
-    void JUnitTest() {
+    void jUnitTest() {
         open("/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-box").find(byText("Show 3 more pages…")).click();
